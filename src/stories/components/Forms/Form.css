@@ -1,0 +1,27 @@
+.login {
+    border: 1px solid #333;
+    width: 500px;
+    padding: 15px 20px;
+}
+
+.login h1 {
+    text-align: center;
+}
+
+.login div {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.login div label {
+    display: inline-block;
+    width: 150px;
+    font-size: 1.5rem;
+}
+
+.login div:last-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
